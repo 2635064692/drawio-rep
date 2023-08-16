@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T09:41:57.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Q9XMmNRs8hrw5564uyGy" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T09:51:38.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ya3lNA6iRzNn-c8TuS-4" version="21.6.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1434" dy="500758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500000" pageHeight="500000" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500000" pageHeight="500000" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,9 +39,6 @@
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-141" value="同步复制" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=16;flipV=1;flipH=0;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-136">
           <mxGeometry x="35" y="130" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-170" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;WriteSocketService&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;gradientColor=none;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-136">
-          <mxGeometry x="290" y="50" width="150" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="u86ZxO2GLOo_KHGJwjbJ-136" source="u86ZxO2GLOo_KHGJwjbJ-176" target="u86ZxO2GLOo_KHGJwjbJ-177">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -59,8 +56,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-182" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;ReadSocketService&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;gradientColor=none;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-136">
-          <mxGeometry x="290" y="150" width="150" height="60" as="geometry" />
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-201" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;HAConnection&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-136">
+          <mxGeometry x="300" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-170" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;WriteSocketService&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;gradientColor=none;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-201">
+          <mxGeometry x="25" y="32" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-182" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;ReadSocketService&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;gradientColor=none;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-201">
+          <mxGeometry x="25" y="132" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-137" value="broker-salve" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="760" y="190" width="560" height="590" as="geometry">
@@ -87,6 +90,11 @@
         </mxCell>
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-165" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="u86ZxO2GLOo_KHGJwjbJ-137" source="u86ZxO2GLOo_KHGJwjbJ-159" target="u86ZxO2GLOo_KHGJwjbJ-164">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-196" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u86ZxO2GLOo_KHGJwjbJ-165">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-159" value="判断主从同步ofest是否一致" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=16;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-137">
           <mxGeometry x="185" y="268" width="160" height="50" as="geometry" />
@@ -128,8 +136,8 @@
             <mxPoint x="880" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-162" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="u86ZxO2GLOo_KHGJwjbJ-161">
-          <mxGeometry y="502" relative="1" as="geometry">
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-195" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u86ZxO2GLOo_KHGJwjbJ-161">
+          <mxGeometry x="-0.1843" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -139,13 +147,29 @@
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u86ZxO2GLOo_KHGJwjbJ-166" target="u86ZxO2GLOo_KHGJwjbJ-182">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-191" value="socket&lt;br&gt;report" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u86ZxO2GLOo_KHGJwjbJ-190">
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-191" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;socket&lt;br&gt;report offest&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u86ZxO2GLOo_KHGJwjbJ-190">
           <mxGeometry x="0.2454" relative="1" as="geometry">
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-205" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#ff2212&quot;&gt;异步模式由&lt;br&gt;HAClient心跳控制report&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="u86ZxO2GLOo_KHGJwjbJ-190">
+          <mxGeometry x="-0.0632" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u86ZxO2GLOo_KHGJwjbJ-176" target="u86ZxO2GLOo_KHGJwjbJ-146">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-197" value="&lt;font color=&quot;#ff2212&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Rocketmq主从同步&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="660" y="140" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u86ZxO2GLOo_KHGJwjbJ-170" target="u86ZxO2GLOo_KHGJwjbJ-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-199" value="socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="u86ZxO2GLOo_KHGJwjbJ-198">
+          <mxGeometry x="-0.1033" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

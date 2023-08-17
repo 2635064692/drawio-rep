@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T02:28:03.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ScBFZ7KO0NXRIhk2Obwz" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T02:36:59.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="gGQe3bVg9ibkIx8y53MY" version="21.6.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1687" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500000" pageHeight="500000" background="none" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="u86ZxO2GLOo_KHGJwjbJ-176" target="u86ZxO2GLOo_KHGJwjbJ-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-197" value="&lt;font color=&quot;#ff2212&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;RocketmqCommitLog主从同步&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-197" value="&lt;font color=&quot;#ff2212&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Rocketmq CommitLog主从同步&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="660" y="140" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u86ZxO2GLOo_KHGJwjbJ-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="u86ZxO2GLOo_KHGJwjbJ-170" target="u86ZxO2GLOo_KHGJwjbJ-154">
@@ -170,6 +170,39 @@
           <mxGeometry x="-0.1033" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-206" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;SlaveSynchronize&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="230" y="870" width="437.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-215" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="u86ZxO2GLOo_KHGJwjbJ-206" source="u86ZxO2GLOo_KHGJwjbJ-209" target="u86ZxO2GLOo_KHGJwjbJ-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-216" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.89;exitY=0.89;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="u86ZxO2GLOo_KHGJwjbJ-206" source="u86ZxO2GLOo_KHGJwjbJ-209" target="u86ZxO2GLOo_KHGJwjbJ-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-217" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="u86ZxO2GLOo_KHGJwjbJ-206" source="u86ZxO2GLOo_KHGJwjbJ-209" target="u86ZxO2GLOo_KHGJwjbJ-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-218" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.89;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="u86ZxO2GLOo_KHGJwjbJ-206" source="u86ZxO2GLOo_KHGJwjbJ-209" target="u86ZxO2GLOo_KHGJwjbJ-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-209" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;scheduledExecutorService&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;gradientColor=none;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-206">
+          <mxGeometry x="27.5" y="60" width="182.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-211" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;syncTopicConfig&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-206">
+          <mxGeometry x="307.5" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-212" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;syncConsumerOffset&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-206">
+          <mxGeometry x="307.5" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-213" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;syncDelayOffset&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-206">
+          <mxGeometry x="167.5" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-214" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;syncSubscriptionGroupConfig&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u86ZxO2GLOo_KHGJwjbJ-206">
+          <mxGeometry x="17.5" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u86ZxO2GLOo_KHGJwjbJ-208" value="&lt;font color=&quot;#ff2212&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Rocketmq 元数据&lt;br&gt;主从同步&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="310" y="820" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

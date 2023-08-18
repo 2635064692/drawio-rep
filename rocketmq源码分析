@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T02:19:33.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Cs23CbRfh87L5SPs_VK6" version="21.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-18T02:26:48.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="K1qVRvLhBOiKH7MeyhAC" version="21.6.8" type="github" pages="2">
   <diagram name="主从同步" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="2049" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="1">
+    <mxGraphModel dx="2049" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,7 +227,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1wJaSTPvcI-Q2MaHXdNl" name="消息发送">
-    <mxGraphModel dx="1069" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="1">
+    <mxGraphModel dx="1222" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

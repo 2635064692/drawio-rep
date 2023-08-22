@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T07:17:46.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m8rH3KdVVAORN4V-XX70" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-22T07:18:12.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZKqqRUC8uLVE4PaQDUwh" version="21.6.8" type="github" pages="3">
   <diagram name="主从同步" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -953,8 +953,11 @@
         <mxCell id="zF-fVuch9oPPKEc9g2ef-5" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;Fira Code&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;msgTreeMap&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zF-fVuch9oPPKEc9g2ef-3">
           <mxGeometry x="40" y="101" width="120" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="zF-fVuch9oPPKEc9g2ef-2" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2165" y="844" width="200" height="200" as="geometry" />
+        <mxCell id="zF-fVuch9oPPKEc9g2ef-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: Inter; font-size: 9.8pt;&quot;&gt;ConsumeMessageConcurrentlyService&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2165" y="844" width="275" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="zF-fVuch9oPPKEc9g2ef-6" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: Inter; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;ConsumeMessageOrderlyService&lt;/div&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1103" y="840" width="287" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

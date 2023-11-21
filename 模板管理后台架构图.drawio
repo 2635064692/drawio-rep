@@ -1,21 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T02:02:32.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3JuMrihH0DnI2nzVJHlm" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T02:21:21.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ED1mJ3giG_Xe9b-ddxbV" version="22.1.3" type="github">
   <diagram name="模板管理领域模型" id="PYWK2hIuranbojxT-5Qh">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dzJcQIRKlf1lMkuzSH9z-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="60" width="530" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="dzJcQIRKlf1lMkuzSH9z-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="260" width="530" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="dzJcQIRKlf1lMkuzSH9z-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="430" width="530" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="dzJcQIRKlf1lMkuzSH9z-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="780" width="530" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="dzJcQIRKlf1lMkuzSH9z-5" value="模板操作API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="110" width="120" height="60" as="geometry" />
         </mxCell>
@@ -38,16 +26,16 @@
           <mxGeometry x="210" y="450" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XvEHIjpMidkAJk5ICeNm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="60" width="530" height="160" as="geometry" />
+          <mxGeometry x="190" y="60" width="530" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XvEHIjpMidkAJk5ICeNm-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="260" width="530" height="160" as="geometry" />
+          <mxGeometry x="190" y="260" width="530" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XvEHIjpMidkAJk5ICeNm-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="430" width="530" height="220" as="geometry" />
+          <mxGeometry x="190" y="430" width="530" height="270" as="geometry" />
         </mxCell>
         <mxCell id="XvEHIjpMidkAJk5ICeNm-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="780" width="530" height="160" as="geometry" />
+          <mxGeometry x="190" y="730" width="530" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XvEHIjpMidkAJk5ICeNm-5" value="模板操作API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="110" width="120" height="60" as="geometry" />
@@ -67,8 +55,11 @@
         <mxCell id="XvEHIjpMidkAJk5ICeNm-10" value="模板介绍增删改" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="270" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XvEHIjpMidkAJk5ICeNm-11" target="XvEHIjpMidkAJk5ICeNm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XvEHIjpMidkAJk5ICeNm-11" value="TemplateEntity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="205" y="450" width="315" height="90" as="geometry" />
+          <mxGeometry x="205" y="450" width="315" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XvEHIjpMidkAJk5ICeNm-12" value="模板使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XvEHIjpMidkAJk5ICeNm-11">
           <mxGeometry x="115" y="30" width="80" height="30" as="geometry" />
@@ -80,13 +71,34 @@
           <mxGeometry x="220" y="480" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XvEHIjpMidkAJk5ICeNm-15" value="TemplateClassifyRelationEntity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="205" y="550" width="315" height="90" as="geometry" />
+          <mxGeometry x="205" y="600" width="315" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="XvEHIjpMidkAJk5ICeNm-16" value="模板使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XvEHIjpMidkAJk5ICeNm-15">
-          <mxGeometry x="115" y="30" width="80" height="30" as="geometry" />
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-19" value="模板-分类关联关系映射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XvEHIjpMidkAJk5ICeNm-17" value="上架审核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XvEHIjpMidkAJk5ICeNm-15">
-          <mxGeometry x="210" y="30" width="80" height="30" as="geometry" />
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-21" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-22" value="n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-23" value="标签分类同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-24" value="草稿保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-25" value="模板管理表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="760" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-26" value="模板标签分类表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="760" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-27" value="模板标签分类关联表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="760" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XvEHIjpMidkAJk5ICeNm-28" value="模板介绍表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="760" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

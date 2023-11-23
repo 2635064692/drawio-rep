@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T02:53:36.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GIL38ZjHnEI0-2xiI4Zk" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T03:47:55.473Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Xok-MVsSG-2Aq_lkUp8q" version="22.1.3" type="github">
   <diagram name="整体架构图" id="bC0zQZiVxQ6Fhdy-LMjk">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-1" value="门户管理后台" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="590" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-14" value="门户首页配置" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-1">
+          <mxGeometry x="350" y="50" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-15" value="文档配置添加" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-14">
+          <mxGeometry x="40" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-16" value="模板配置添加" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-14">
+          <mxGeometry x="40" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-17" value="文档管理" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-1">
+          <mxGeometry x="20" y="50" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-18" value="文档创建、分享" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-17">
+          <mxGeometry x="40" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-19" value="文档导入" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-17">
+          <mxGeometry x="40" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-5" value="模板服务" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="210" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-6" value="市场模板提供" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-5">
+          <mxGeometry x="33" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="z3oVRWqqFDo_qCm-zIla-5" source="z3oVRWqqFDo_qCm-zIla-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="140" as="sourcePoint" />
+            <mxPoint y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-10" value="ContentServer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-11" value="文档批量导入" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-10">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-12" value="文档创建、分享" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-10">
+          <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-7" value="authkitServer" style="swimlane;whiteSpace=wrap;html=1;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="109" y="40" width="591" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-8" value="用户信息查询" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-7">
+          <mxGeometry x="400" y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-9" value="身份认证" style="whiteSpace=wrap;html=1;" vertex="1" parent="z3oVRWqqFDo_qCm-zIla-7">
+          <mxGeometry x="80" y="27.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="z3oVRWqqFDo_qCm-zIla-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=14;endSize=5.79;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="z3oVRWqqFDo_qCm-zIla-17" target="z3oVRWqqFDo_qCm-zIla-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="300" as="sourcePoint" />
+            <mxPoint x="800" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

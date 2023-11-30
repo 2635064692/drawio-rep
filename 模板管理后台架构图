@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T11:06:02.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dO2mbKv1_Srn64Dq-yX3" version="22.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-30T11:08:40.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="k0Lb6PFeX0rHCF5ATKx2" version="22.1.5" type="github" pages="4">
   <diagram name="模板管理领域模型" id="PYWK2hIuranbojxT-5Qh">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -668,8 +668,8 @@
         <mxCell id="EXejad9ZpiEJviM8duB7-24" value="流程索引字段表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="1185" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UqH_0AXFsNAQ3Ws_c3B1-1" value="用户撤回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1171" y="560" width="70" height="30" as="geometry" />
+        <mxCell id="UqH_0AXFsNAQ3Ws_c3B1-1" value="审核侧用户撤回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1151" y="555" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UqH_0AXFsNAQ3Ws_c3B1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UqH_0AXFsNAQ3Ws_c3B1-8" target="UqH_0AXFsNAQ3Ws_c3B1-11">
           <mxGeometry relative="1" as="geometry" />

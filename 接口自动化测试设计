@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T02:49:08.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3N4qRIsyTKI85xIzqzP-" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T03:09:46.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="r7HSYhtks4up8TeEiPrN" version="22.1.7" type="github">
   <diagram name="第 1 页" id="7RMZdz68bX6s0d4gMVst">
     <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,10 @@
           <mxGeometry x="650" y="310" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;接口常量信息&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- url&amp;nbsp; // 接口地址&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- method&amp;nbsp; // 接口方法&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 结果校验&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 入参与结果断言&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="60" y="593" width="190" height="140" as="geometry" />
+          <mxGeometry x="20" y="570" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-39" value="后续可按照场景分组，存储到数据库&lt;br&gt;数据来源于分组的接口信息。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="585" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

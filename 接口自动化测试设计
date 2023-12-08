@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T01:50:54.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="ZV7mqNtqsMxxBKt7PTq3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-08T02:19:47.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="hwSIa6L1yeDp_9PAVVU3" version="22.1.7" type="github">
   <diagram name="第 1 页" id="7RMZdz68bX6s0d4gMVst">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-1" value="apiFox" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-2" value="前置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-3" value="后置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-4" value="暂无用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-5" value="断言" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="55" y="415" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="190" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-7" value="场景测试&lt;br&gt;非单独接口测试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-415" y="145" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-8" value="模板创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-9" value="模板列表查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="310" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-10" value="模板详情查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-395" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-440" y="280" as="sourcePoint" />
+            <mxPoint x="-440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,100 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T03:21:17.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1ElRRj94AcWaZtuyqSW_" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T08:36:06.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BWK0jE9c450aNAOVFQge" version="22.1.7" type="github">
   <diagram name="第 1 页" id="7RMZdz68bX6s0d4gMVst">
     <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-1" target="AkV_Pv0l1TJ5pFfb24Wp-2">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-1" target="AkV_Pv0l1TJ5pFfb24Wp-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-1" target="AkV_Pv0l1TJ5pFfb24Wp-3">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-1" target="AkV_Pv0l1TJ5pFfb24Wp-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-1" target="AkV_Pv0l1TJ5pFfb24Wp-26">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-1" target="AkV_Pv0l1TJ5pFfb24Wp-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-1" value="单一接口执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-1" value="单一接口执行" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="295" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-2" value="前置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-2" value="前置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-3" value="后置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-3" value="后置" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="385" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-4" value="暂无用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-4" value="暂无用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="370" y="220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-5" value="断言" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-5" value="断言" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="375" y="400" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" parent="1" vertex="1">
           <mxGeometry x="-380" y="190" width="40" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-7" value="场景测试&lt;br&gt;非单独接口测试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-7" value="场景测试&lt;br&gt;非单独接口测试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-415" y="145" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-8" value="模板创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-8" value="模板创建" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-395" y="250" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-9" value="模板列表查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-9" value="模板列表查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-395" y="310" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-10" value="模板详情查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-10" value="模板详情查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-395" y="370" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-440" y="280" as="sourcePoint" />
             <mxPoint x="-440" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-14" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-14" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="-200" y="310" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="AkV_Pv0l1TJ5pFfb24Wp-14" parent="1" target="AkV_Pv0l1TJ5pFfb24Wp-17">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-14" target="AkV_Pv0l1TJ5pFfb24Wp-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-110" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-16" value="场景化测试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-16" value="场景化测试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-230" y="278" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-17" target="AkV_Pv0l1TJ5pFfb24Wp-20">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-17" target="AkV_Pv0l1TJ5pFfb24Wp-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-17" value="apiFox接口编排" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-17" value="apiFox接口编排" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-100" y="308" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-20" target="AkV_Pv0l1TJ5pFfb24Wp-1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-20" target="AkV_Pv0l1TJ5pFfb24Wp-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-20" value="接口串行化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-20" value="接口串行化" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="308" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-26" target="AkV_Pv0l1TJ5pFfb24Wp-28">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AkV_Pv0l1TJ5pFfb24Wp-26" target="AkV_Pv0l1TJ5pFfb24Wp-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-26" value="结果输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-26" value="结果输出" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="308" width="110" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-28" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-28" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="650" y="310" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;接口常量信息&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- url&amp;nbsp; // 接口地址&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- method&amp;nbsp; // 接口方法&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- 接口入参静态数据 // 当前使用静态数据，后续可放数据库&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 结果校验&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 入参与结果断言&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fetchDynamicVariables // Map&amp;lt;String,DynamicVariables&amp;gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;接口常量信息&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- url&amp;nbsp; // 接口地址&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- method&amp;nbsp; // 接口方法&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- 接口入参静态数据 // 当前使用静态数据，后续可放数据库&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 结果校验&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 入参与结果断言&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fetchDynamicVariables // Map&amp;lt;String,DynamicVariables&amp;gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-120" y="570" width="330" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-39" value="后续可按照场景分组，存储到数据库&lt;br&gt;数据来源于分组的接口信息。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-39" value="后续可按照场景分组，存储到数据库&lt;br&gt;数据来源于分组的接口信息。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="350" y="530" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;DynamicVariables&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- type // 反射方式；取上一步骤方式&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- target // 获取目标，url；反射方法名&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- lastStepResultKey // 获取上几步骤的值key&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;DynamicVariables&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- type // 反射方式；取上一步骤方式&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- target // 获取目标，url；反射方法名&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- lastStepResultKey // 获取上几步骤的值key&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-413" y="720" width="213" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-53" value="统一结果缓存Map&amp;lt;gloableId_url,ResultCache&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-53" value="统一结果缓存Map&amp;lt;gloableId_url,ResultCache&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="360" y="660" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ResultCache&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- result // object&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ResultCache&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- result // object&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-70" y="820" width="213" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yGWwCHLqsWL4-_eyNX1q-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;db接口参数定义&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- url&amp;nbsp; // 接口地址&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- setpNum&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- module&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- parameters&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 结果校验&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 入参与结果断言&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fetchDynamicVariables // Map&amp;lt;String,DynamicVariables&amp;gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="770" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yGWwCHLqsWL4-_eyNX1q-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Db&lt;span style=&quot;background-color: initial;&quot;&gt;Parameters&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- defaultValue&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;dynamicVariablesMapping&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;defaultValue&quot;:&quot;&quot;,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;dynamicVariablesMapping&quot;:{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;$.name&quot;:{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;type&quot;:&quot;CUSTOM&quot;,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;customMethod&quot;:&quot;templateName&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;}&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="980" width="330" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

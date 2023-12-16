@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T08:01:36.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="779nIc6-ojS_4AEFIrXA" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:08:20.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lpCN-jwWOQ7yPjBUfYT7" version="22.1.11" type="github" pages="2">
   <diagram name="基本概念" id="uiDnn_JkYw5ULedOET3o">
     <mxGraphModel dx="1050" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,22 +41,25 @@
           <mxGeometry x="370" y="80" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="66auQYp6tVfNIwIAIFT6-20" value="要点记录" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-40" width="240" height="200" as="geometry" />
+          <mxGeometry x="720" y="-40" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="66auQYp6tVfNIwIAIFT6-21" value="1.&amp;nbsp;一次事务只能修改一个聚合的数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
           <mxGeometry x="-10" y="30" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="66auQYp6tVfNIwIAIFT6-26" value="2. 多个依赖紧密的DO（Domain Object）&lt;br&gt;对象构成聚合。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=0;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
-          <mxGeometry y="60" width="240" height="40" as="geometry" />
+        <mxCell id="66auQYp6tVfNIwIAIFT6-26" value="2. 多个依赖紧密的DO（Domain Object，实体）&lt;br&gt;对象构成聚合。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=0;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
+          <mxGeometry y="60" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="66auQYp6tVfNIwIAIFT6-22" value="疑问点？？" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="720" y="180" width="260" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="66auQYp6tVfNIwIAIFT6-23" value="1. 领域层中的领域服务是什么？？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-22">
+        <mxCell id="66auQYp6tVfNIwIAIFT6-23" value="1. 领域层中的领域服务是什么？？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-22">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="66auQYp6tVfNIwIAIFT6-25" value="2. 按照聚合分包？聚合是否为一些列操作&lt;br&gt;的汇总" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-22">
+        <mxCell id="66auQYp6tVfNIwIAIFT6-25" value="2. 按照聚合分包？聚合是否为一些列操作&lt;br&gt;的汇总" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-22">
           <mxGeometry y="50" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-1" value="3. 聚合与实体关系，如果聚合管理实体的调用&lt;br&gt;，那么聚合根有什么用，以及实体的充血模型&lt;br&gt;有什么用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-22">
+          <mxGeometry y="80" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -75,13 +78,25 @@
         <mxCell id="V7cRPdxAKlohoG1--L0F-3" value="模板管理聚合" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="340" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-10" value="模板新建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V7cRPdxAKlohoG1--L0F-3">
+          <mxGeometry x="10" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-11" value="模板上架&lt;br&gt;（审核相关）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V7cRPdxAKlohoG1--L0F-3">
+          <mxGeometry x="10" y="85" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-14" value="模板分类、标签&lt;br&gt;（分类相关）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V7cRPdxAKlohoG1--L0F-3">
+          <mxGeometry x="10" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="V7cRPdxAKlohoG1--L0F-4" value="扩展聚合" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="340" width="200" height="200" as="geometry">
             <mxRectangle x="300" y="340" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V7cRPdxAKlohoG1--L0F-5" value="模板市场聚合" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="590" width="200" height="200" as="geometry" />
+          <mxGeometry x="20" y="590" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-15" value="welink提交审核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V7cRPdxAKlohoG1--L0F-5">
+          <mxGeometry x="10" y="40" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V7cRPdxAKlohoG1--L0F-7" value="审核域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="500" width="90" height="40" as="geometry" />
@@ -91,6 +106,9 @@
         </mxCell>
         <mxCell id="V7cRPdxAKlohoG1--L0F-9" value="通用域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-13" value="开发者后台模板聚合" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="300" y="590" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,20 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T06:40:41.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iVaogkTK49-hoc22HwJf" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T06:43:28.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-kmmSsdzx9xfGj4vUkGH" version="22.1.11" type="github">
   <diagram name="第 1 页" id="uiDnn_JkYw5ULedOET3o">
     <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="66auQYp6tVfNIwIAIFT6-1" value="实体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="90" width="90" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="66auQYp6tVfNIwIAIFT6-2" value="聚合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="150" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="66auQYp6tVfNIwIAIFT6-3" value="聚合根" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="66auQYp6tVfNIwIAIFT6-3" value="聚合根" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="70" y="210" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="66auQYp6tVfNIwIAIFT6-4" value="值对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="30" width="90" height="30" as="geometry" />
+        <mxCell id="66auQYp6tVfNIwIAIFT6-4" value="值对象&lt;br&gt;RequestData&lt;br&gt;AutoFixData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="10" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-6" value="聚合" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-7" value="实体&lt;br&gt;Entity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-6">
+          <mxGeometry x="10" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-8" value="实体" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-6">
+          <mxGeometry x="120" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-9" value="聚合根&lt;br&gt;控制实体调用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-6">
+          <mxGeometry x="55" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-11" value="实体&lt;br&gt;Entity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T08:08:20.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lpCN-jwWOQ7yPjBUfYT7" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-16T09:05:02.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="l626sbwuuCE7iLiIhDu7" version="22.1.11" type="github" pages="2">
   <diagram name="基本概念" id="uiDnn_JkYw5ULedOET3o">
     <mxGraphModel dx="1050" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,18 @@
         </mxCell>
         <mxCell id="nBcBF-991o3Gdck6rgYT-1" value="3. 聚合与实体关系，如果聚合管理实体的调用&lt;br&gt;，那么聚合根有什么用，以及实体的充血模型&lt;br&gt;有什么用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-22">
           <mxGeometry y="80" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-2" value="领域" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="550" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-3" value="核心域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBcBF-991o3Gdck6rgYT-2">
+          <mxGeometry x="20" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-4" value="通用域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBcBF-991o3Gdck6rgYT-2">
+          <mxGeometry x="20" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-5" value="支撑域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nBcBF-991o3Gdck6rgYT-2">
+          <mxGeometry x="20" y="160" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

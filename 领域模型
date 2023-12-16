@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T07:32:40.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ptqgSEWmH194gIIEqnVe" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-16T08:01:36.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="779nIc6-ojS_4AEFIrXA" version="22.1.11" type="github" pages="2">
   <diagram name="基本概念" id="uiDnn_JkYw5ULedOET3o">
     <mxGraphModel dx="1050" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,6 +66,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V7cRPdxAKlohoG1--L0F-1" value="模板服务大致功能" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-2" value="模板添加、模板上架、审核、扩展&lt;br&gt;查询，扩展添加、与其他服务关联" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="V7cRPdxAKlohoG1--L0F-1">
+          <mxGeometry y="25" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-3" value="模板管理聚合" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-4" value="扩展聚合" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="200" height="200" as="geometry">
+            <mxRectangle x="300" y="340" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-5" value="模板市场聚合" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="590" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-7" value="审核域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="500" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-8" value="分类域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="565" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V7cRPdxAKlohoG1--L0F-9" value="通用域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

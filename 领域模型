@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T09:05:02.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="l626sbwuuCE7iLiIhDu7" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-16T10:12:19.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wu9IDxkcB3z_ByQL97_1" version="22.1.11" type="github" pages="2">
   <diagram name="基本概念" id="uiDnn_JkYw5ULedOET3o">
     <mxGraphModel dx="1050" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,13 +41,25 @@
           <mxGeometry x="370" y="80" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="66auQYp6tVfNIwIAIFT6-20" value="要点记录" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-40" width="280" height="200" as="geometry" />
+          <mxGeometry x="720" y="-40" width="300" height="210" as="geometry" />
         </mxCell>
         <mxCell id="66auQYp6tVfNIwIAIFT6-21" value="1.&amp;nbsp;一次事务只能修改一个聚合的数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
           <mxGeometry x="-10" y="30" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="66auQYp6tVfNIwIAIFT6-26" value="2. 多个依赖紧密的DO（Domain Object，实体）&lt;br&gt;对象构成聚合。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=0;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
           <mxGeometry y="60" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-6" value="3. 允许外部对象持有对聚合根的引用" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=0;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
+          <mxGeometry y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-7" value="4. 对聚合内部的实体修改，都应该从聚合根进行" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=0;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
+          <mxGeometry y="110" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-9" value="5. 生命周期一致性原则：聚合根消失，聚合内部所有&lt;br&gt;对象跟随消失（非必须）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=0;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
+          <mxGeometry y="130" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBcBF-991o3Gdck6rgYT-10" value="6. 聚合应该尽可能的小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=0;" vertex="1" parent="66auQYp6tVfNIwIAIFT6-20">
+          <mxGeometry y="165" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="66auQYp6tVfNIwIAIFT6-22" value="疑问点？？" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="720" y="180" width="260" height="200" as="geometry" />

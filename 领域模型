@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T06:39:48.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.11" etag="KftGxLMa9EFQhM7I56f_" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T06:40:41.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iVaogkTK49-hoc22HwJf" version="22.1.11" type="github">
   <diagram name="第 1 页" id="uiDnn_JkYw5ULedOET3o">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="66auQYp6tVfNIwIAIFT6-1" value="实体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-2" value="聚合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-3" value="聚合根" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-4" value="值对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

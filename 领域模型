@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T06:53:13.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9piQsljH68v6IJJq6YFM" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-16T07:11:34.200Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Oh8VMxEr3eqKBR9d-SiE" version="22.1.11" type="github">
   <diagram name="基本概念" id="uiDnn_JkYw5ULedOET3o">
-    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,8 +37,11 @@
         <mxCell id="66auQYp6tVfNIwIAIFT6-15" value="界限上下文&lt;br&gt;包含多个实体，共同完成某个业务" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="380" y="310" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="66auQYp6tVfNIwIAIFT6-17" value="领域事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="90" width="90" height="30" as="geometry" />
+        <mxCell id="66auQYp6tVfNIwIAIFT6-17" value="领域事件&lt;br&gt;配合SpringEvent 达到事务效果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66auQYp6tVfNIwIAIFT6-18" value="1.&amp;nbsp;一次事务只能修改一个聚合的数据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-30" width="240" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

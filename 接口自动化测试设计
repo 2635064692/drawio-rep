@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T08:36:06.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BWK0jE9c450aNAOVFQge" version="22.1.7" type="github">
-  <diagram name="第 1 页" id="7RMZdz68bX6s0d4gMVst">
-    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-12-19T08:49:54.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fERPk8zqNBFLgavZEohL" version="22.1.11" type="github" pages="2">
+  <diagram name="粗稿" id="7RMZdz68bX6s0d4gMVst">
+    <mxGraphModel dx="2901" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,11 +96,146 @@
         <mxCell id="AkV_Pv0l1TJ5pFfb24Wp-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;ResultCache&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- result // object&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-70" y="820" width="213" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yGWwCHLqsWL4-_eyNX1q-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;db接口参数定义&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- url&amp;nbsp; // 接口地址&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- setpNum&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- module&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- parameters&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 结果校验&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 入参与结果断言&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fetchDynamicVariables // Map&amp;lt;String,DynamicVariables&amp;gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="yGWwCHLqsWL4-_eyNX1q-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;db接口参数定义&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- url&amp;nbsp; // 接口地址&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- setpNum&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- module&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- parameters&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 结果校验&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- 入参与结果断言&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- fetchDynamicVariables // Map&amp;lt;String,DynamicVariables&amp;gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="320" y="770" width="330" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="yGWwCHLqsWL4-_eyNX1q-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Db&lt;span style=&quot;background-color: initial;&quot;&gt;Parameters&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- defaultValue&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;dynamicVariablesMapping&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;defaultValue&quot;:&quot;&quot;,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;dynamicVariablesMapping&quot;:{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;$.name&quot;:{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;type&quot;:&quot;CUSTOM&quot;,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;customMethod&quot;:&quot;templateName&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;}&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="yGWwCHLqsWL4-_eyNX1q-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Db&lt;span style=&quot;background-color: initial;&quot;&gt;Parameters&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- defaultValue&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;dynamicVariablesMapping&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;defaultValue&quot;:&quot;&quot;,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;dynamicVariablesMapping&quot;:{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;$.name&quot;:{&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;type&quot;:&quot;CUSTOM&quot;,&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;customMethod&quot;:&quot;templateName&quot;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;}&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="270" y="980" width="330" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UGgqo5FtG5nPHe71GMJQ" name="流程设计">
+    <mxGraphModel dx="2901" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NsPe4YqAoKbmA7ZeEPr3-2" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="240" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v7ARIq5ee-suigC-kIq-4" target="_v7ARIq5ee-suigC-kIq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-4" value="服务接口执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="830.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v7ARIq5ee-suigC-kIq-5" target="_v7ARIq5ee-suigC-kIq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-5" value="前置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="740.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_v7ARIq5ee-suigC-kIq-6" target="_v7ARIq5ee-suigC-kIq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-6" value="后置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="920.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-7" value="前置参数替换" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="710" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-8" value="执行结果断言" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="980.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-9" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="845" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-11" value="场景化测试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="813" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_v7ARIq5ee-suigC-kIq-13" target="_v7ARIq5ee-suigC-kIq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="860.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-13" value="apiFox接口编排" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="843" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v7ARIq5ee-suigC-kIq-17" target="_v7ARIq5ee-suigC-kIq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-17" value="结果输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="843.5" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="845.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_v7ARIq5ee-suigC-kIq-9" target="_v7ARIq5ee-suigC-kIq-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="860.5" as="sourcePoint" />
+            <mxPoint x="-460" y="860.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-23" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="404" y="250" width="20" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_v7ARIq5ee-suigC-kIq-23">
+          <mxGeometry x="5" y="150" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-34" value="参数替换" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="_v7ARIq5ee-suigC-kIq-33" parent="_v7ARIq5ee-suigC-kIq-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="40" y="130" />
+              <mxPoint x="40" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-24" value="场景化接口编排" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="208" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-26" value="template-service&lt;br&gt;/&lt;br&gt;developer-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=50;" vertex="1" parent="1">
+          <mxGeometry x="920" y="238" width="100" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_v7ARIq5ee-suigC-kIq-26">
+          <mxGeometry x="45" y="202" width="10" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-27" value="at-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_v7ARIq5ee-suigC-kIq-27">
+          <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="_v7ARIq5ee-suigC-kIq-27">
+          <mxGeometry x="45" y="290" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-28" value="apifox" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="258" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-31" value="1.2 参数返回" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="_v7ARIq5ee-suigC-kIq-29" parent="1" target="_v7ARIq5ee-suigC-kIq-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-30" value="1.1 前置参数替换" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="_v7ARIq5ee-suigC-kIq-29" parent="1" source="_v7ARIq5ee-suigC-kIq-23">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint x="615" y="315" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-36" value="2.1 业务接口调用" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="_v7ARIq5ee-suigC-kIq-35" parent="1" source="_v7ARIq5ee-suigC-kIq-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="445" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-37" value="2.3 业务接口响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="_v7ARIq5ee-suigC-kIq-35" parent="1" target="_v7ARIq5ee-suigC-kIq-23">
+          <mxGeometry x="0.0009" relative="1" as="geometry">
+            <mxPoint x="895" y="515" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="483" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-40" value="3.2 接口出参校验结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="_v7ARIq5ee-suigC-kIq-38" parent="1" target="_v7ARIq5ee-suigC-kIq-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_v7ARIq5ee-suigC-kIq-39" value="3.1 后置断言处理" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="_v7ARIq5ee-suigC-kIq-38" parent="1" source="_v7ARIq5ee-suigC-kIq-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="535" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

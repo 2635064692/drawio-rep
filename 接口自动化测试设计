@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T08:59:05.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6AO0aEKlpEbGdVT9roqL" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-19T08:59:27.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DEFqPJ6Q5Ld5caIsoTQE" version="22.1.11" type="github" pages="2">
   <diagram name="粗稿" id="7RMZdz68bX6s0d4gMVst">
     <mxGraphModel dx="2901" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,22 +238,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_v7ARIq5ee-suigC-kIq-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="920.5" width="50" height="19" as="geometry" />
+          <mxGeometry x="-760" y="911" width="50" height="19" as="geometry" />
         </mxCell>
         <mxCell id="_v7ARIq5ee-suigC-kIq-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="950" width="50" height="19" as="geometry" />
+          <mxGeometry x="-760" y="940.5" width="50" height="19" as="geometry" />
         </mxCell>
         <mxCell id="_v7ARIq5ee-suigC-kIq-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="980.5" width="50" height="19" as="geometry" />
+          <mxGeometry x="-760" y="971" width="50" height="19" as="geometry" />
         </mxCell>
         <mxCell id="_v7ARIq5ee-suigC-kIq-44" value="apifox" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="915" width="60" height="30" as="geometry" />
+          <mxGeometry x="-700" y="905.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_v7ARIq5ee-suigC-kIq-45" value="at-service（自动化服务）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="944.5" width="160" height="30" as="geometry" />
+          <mxGeometry x="-700" y="935" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_v7ARIq5ee-suigC-kIq-46" value="服务接口（template、developer）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="975" width="210" height="30" as="geometry" />
+          <mxGeometry x="-700" y="965.5" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

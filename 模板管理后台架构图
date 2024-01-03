@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T09:03:40.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JTzTB-5IDaTpRoD1TP55" version="22.1.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-01-03T09:57:05.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-qM8ysMjE95SaLcL_slY" version="22.1.13" type="github" pages="4">
   <diagram name="模板管理领域模型" id="PYWK2hIuranbojxT-5Qh">
     <mxGraphModel dx="2074" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -882,7 +882,7 @@
           <mxGeometry x="1395" y="1013.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tL8rb_3lAcyi0HPdDPAj-2" value="审批设置支持按活动自定义" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="30" y="2310" width="180" height="20" as="geometry" />
+          <mxGeometry x="40" y="2330" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tL8rb_3lAcyi0HPdDPAj-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
           <mxGeometry x="30" y="2430" width="20" height="550" as="geometry" />
@@ -955,7 +955,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tL8rb_3lAcyi0HPdDPAj-25" value="1.2&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;/content/activity/xxx&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;活动信息查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tL8rb_3lAcyi0HPdDPAj-24">
+        <mxCell id="tL8rb_3lAcyi0HPdDPAj-25" value="1.2 &lt;font color=&quot;#ff0000&quot;&gt;/api/content/sysconfig/activitiesConfig&lt;/font&gt;&lt;br&gt;活动信息查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tL8rb_3lAcyi0HPdDPAj-24">
           <mxGeometry x="-0.1467" y="2" relative="1" as="geometry">
             <mxPoint x="-52" y="-13" as="offset" />
           </mxGeometry>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T08:09:35.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="0S-p3VsPMU5S7yTDYhSb" version="23.1.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-23T01:21:07.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KKivIxJcviBYdIlPjf8T" version="23.1.1" type="github" pages="5">
   <diagram name="模板管理领域模型" id="PYWK2hIuranbojxT-5Qh">
-    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1178,7 +1178,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gG4u4jivOvddo_1q3FVi" name="上架免审">
-    <mxGraphModel dx="1877" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

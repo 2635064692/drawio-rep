@@ -1,66 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T07:44:03.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GWdZorkqy3Y8E8s9XwKZ" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T08:10:30.417Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="pWUvpHfMit8amB8xKbo4" version="24.0.5" type="github">
   <diagram name="状态渲染架构" id="aaRi7r7iNclMMg5TtWFP">
     <mxGraphModel dx="2555" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_DxinESv54XO-Ia_x07E-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_DxinESv54XO-Ia_x07E-1" target="_DxinESv54XO-Ia_x07E-5">
+        <mxCell id="_DxinESv54XO-Ia_x07E-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="_DxinESv54XO-Ia_x07E-1" target="_DxinESv54XO-Ia_x07E-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-1" value="@Componet装饰的视图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-1" value="@Componet装饰的视图" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-90" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-250" y="85" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="_DxinESv54XO-Ia_x07E-2" parent="1" target="_DxinESv54XO-Ia_x07E-1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=default;" edge="1" source="_DxinESv54XO-Ia_x07E-2" parent="1" target="_DxinESv54XO-Ia_x07E-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-285" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-4" value="arkTs方舟编译器执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-4" value="arkTs方舟编译器执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-250" y="55" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-5" value="生成extends ViewPU&lt;div&gt;的类&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-5" value="生成extends ViewPU&lt;div&gt;的类&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="110" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-6" value="相关状态属性的字段被&lt;div&gt;包装wrapper&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-6" value="相关状态属性的字段被&lt;div&gt;包装wrapper&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="110" y="130" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-7" value="若状态变量为对象或其他&lt;span style=&quot;background-color: initial;&quot;&gt;复杂类型，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将通过ts中的Proxy生成代理对象&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;增强（set、get操作）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-7" value="若状态变量为对象或其他&lt;span style=&quot;background-color: initial;&quot;&gt;复杂类型，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将通过ts中的Proxy生成代理对象&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;增强（set、get操作）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-500" y="555" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-8" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-8" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-310" y="280" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="_DxinESv54XO-Ia_x07E-8" parent="1" target="_DxinESv54XO-Ia_x07E-10">
+        <mxCell id="_DxinESv54XO-Ia_x07E-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=default;" edge="1" source="_DxinESv54XO-Ia_x07E-8" parent="1" target="_DxinESv54XO-Ia_x07E-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-220" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_DxinESv54XO-Ia_x07E-10" target="_DxinESv54XO-Ia_x07E-12">
+        <mxCell id="_DxinESv54XO-Ia_x07E-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="_DxinESv54XO-Ia_x07E-10" target="_DxinESv54XO-Ia_x07E-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-10" value="@State装饰变量修改如x.a=&#39;1&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-10" value="@State装饰变量修改如x.a=&#39;1&#39;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-210" y="265" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-11" value="状态变量修改触发UI刷新流程" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-11" value="状态变量修改触发UI刷新流程" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-460" y="310" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_DxinESv54XO-Ia_x07E-12" target="_DxinESv54XO-Ia_x07E-13">
+        <mxCell id="_DxinESv54XO-Ia_x07E-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="_DxinESv54XO-Ia_x07E-12" target="_DxinESv54XO-Ia_x07E-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-12" value="x的wrapper实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-12" value="x的wrapper实例" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-30" y="265" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_DxinESv54XO-Ia_x07E-13" target="_DxinESv54XO-Ia_x07E-15">
+        <mxCell id="_DxinESv54XO-Ia_x07E-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=default;" edge="1" parent="1" source="_DxinESv54XO-Ia_x07E-13" target="_DxinESv54XO-Ia_x07E-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-13" value="x的代理实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-13" value="x的代理实例" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="160" y="265" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_DxinESv54XO-Ia_x07E-15" value="set方法增强&lt;div&gt;修改值&lt;/div&gt;&lt;div&gt;notify通知刷新&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_DxinESv54XO-Ia_x07E-15" value="set方法增强&lt;div&gt;修改值&lt;/div&gt;&lt;div&gt;notify通知刷新&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="350" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_DxinESv54XO-Ia_x07E-21" value="ObservedPropertyObjectPU&lt;br&gt;@State" style="swimlane;whiteSpace=wrap;startSize=35;fontColor=default;spacing=0;swimlaneLine=1;fontSize=12;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-230" y="585" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_DxinESv54XO-Ia_x07E-22" value="SynchedPropertyNesedObjectPU&#xa;@ObjectLink" style="swimlane;startSize=35;spacing=0;swimlaneLine=1;html=1;whiteSpace=wrap;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="585" width="230" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
